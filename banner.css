@@ -1,0 +1,66 @@
+.first-container{
+    position: relative;
+    margin-bottom: 16px;
+    
+    
+}
+
+
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 26px;
+}
+.contactus-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: gray solid 3px;
+    color: blue;
+    border-radius: 16px;
+    padding: 16px;
+    
+}
+.first-container>img{
+    width: 100%;
+    height: 450px;
+    background-size: contain;
+}
+
+.second-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image{
+    height: 200px;
+    width: 100%;
+    border-radius: 12px;
+}
+.image-card{
+    width: 360px;
+    border: gray solid 3px;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    
+    
+}
+a{
+    background-color: gray;
+    text-decoration: none;
+    color: blue;
+    border-radius: 8px;
+    padding: 9px 12px;
+    border: pink 2px solid;
+    cursor: pointer;
+    
+
+}
+a:hover{
+    background-color: blue;
+    color:gray;
+    border: red 2px solid;
+}
